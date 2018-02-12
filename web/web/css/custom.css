@@ -1,0 +1,137 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,400,400italic,500,500italic,700,700italic,900,900italic&subset=latin,latin-ext,cyrillic,cyrillic-ext,greek-ext,greek,vietnamese);
+
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext,cyrillic-ext,cyrillic,greek-ext,greek,vietnamese);
+
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700&subset=latin,latin-ext,greek-ext,greek,vietnamese,cyrillic,cyrillic-ext);
+
+html {
+    font-family: Roboto;
+}
+
+body {
+    font-family: Roboto;
+    background: #EEEEEE;
+}
+
+@media only screen and (max-width: 500px) {
+  li.header-title a{
+    position: relative;
+    right: 45px;
+  }
+  li.selected a{
+    visibility: hidden;
+  }
+  .header-elements {
+    width: 50px;
+    height: 80%;
+    background: white;
+    float: right;
+  }
+  .header-element {
+    display: none;
+    position: absolute;
+    left: 50px;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  }
+  .header-element-text a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  .header-elements:active .header-element {
+    display: block;
+  }
+}
+
+ul.custom-header {
+    width: 100%;
+    height: 70px;
+    background: #5C6BC0;
+    z-index: 2;
+    box-shadow: 0px 5px 10px #BDBDBD;
+    list-style-type: none;
+    overflow-x: auto;
+}
+
+li.header-title a {
+    float: left;
+    color: white;
+    padding: 17px;
+    font-size: 20px;
+    color: yellow;
+}
+
+li.header-title a:hover {
+    text-decoration: none;
+}
+
+li.header-element a{
+    color: white;
+    text-decoration: none;
+    float: left;
+    height: 100%;
+    padding: 23px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+li.header-element a:hover{
+    background: #3F51B5;
+}
+
+.header-element-text a{
+    margin-left: -30px;
+}
+
+.header-elements {
+    margin-right: 40px;
+}
+
+.card {
+    width: 40%;
+    height: auto;
+    background-color: white;
+    z-index: 2;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    box-shadow: 0px 1px 2px #888888;
+    font-family: Roboto;
+    text-align: left;
+    padding-left: 40px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    cursor: hand;
+    min-width: 300px;
+}
+
+.card-hover:hover {
+    background: #F1F1F1;
+    border: 1px solid lightgrey;
+    width: 40.1%;
+    opacity: 0.9;
+    box-shadow: none;
+}
+
+.heading {
+  font-size: 25px;
+}
+
+.small-heading {
+  font-size: 17px;
+  font-weight: bolder;
+}
+
+li.selected a{
+  border-bottom: 2px solid white;
+  color: white;
+  text-decoration: none;
+  float: left;
+  height: 100%;
+  padding: 23px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
