@@ -13,14 +13,14 @@
         <br>
         <center>
             <div class="container">
-              <h2>Busac Noodle!</h2>
+              <h2>Bloosac Noodle!</h2>
               <div class="panel panel-default">
                 <div class="panel-body">We need to research so we can put information here.</div>
               </div>
             </div>
         </center>
         <script>
-          document.getElementById("home").className = "selected";
+          document.getElementById("tsachapter").className = "selected";
         </script>
     </body>
 </html>
